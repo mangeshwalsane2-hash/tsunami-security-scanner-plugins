@@ -2,7 +2,7 @@
 # proto-message: TemplatedPluginTests
 
 config: {
-  tested_plugin: "Cockpit_SSH_Argument_Injection_CVE_2026_4631"
+  tested_plugin: "Cockpit_CVE_2026_4631"
 }
 
 tests: {

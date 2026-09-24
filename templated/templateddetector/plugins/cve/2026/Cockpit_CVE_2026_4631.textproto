@@ -7,7 +7,7 @@
 
 info: {
   type: VULN_DETECTION
-  name: "Cockpit_SSH_Argument_Injection_CVE_2026_4631"
+  name: "Cockpit_CVE_2026_4631"
   author: "mangeshwalsane2-hash"
   version: "1.0"
 }
