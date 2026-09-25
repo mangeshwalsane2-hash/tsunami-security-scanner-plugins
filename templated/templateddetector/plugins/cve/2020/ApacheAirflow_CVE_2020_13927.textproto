@@ -20,7 +20,7 @@ finding: {
   severity: HIGH
   title: "Apache Airflow Default Unauthenticated Experimental REST API (CVE-2020-13927)"
   description: "Apache Airflow versions prior to 1.10.11 have the experimental REST API enabled by default without requiring authentication (airflow.api.auth.backend.default), allowing unauthenticated remote access to query metadata and trigger DAG tasks."
-  recommendation: "Upgrade Apache Airflow to version 1.10.11 or higher, or configure api.auth.backend to require authentication (e.g., airflow.api.auth.backend.deny_all or password-based authentication)."
+  recommendation: "Upgrade Apache Airflow to version 1.10.11 or higher and configure api.auth.backend to require authentication (e.g., airflow.api.auth.backend.deny_all or password-based authentication). Note that version 1.10.11 changes the configuration default for new installs only, and existing installations will still be vulnerable after updating the version."
   related_id: {
     publisher: "CVE"
     value: "CVE-2020-13927"
